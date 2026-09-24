@@ -52,16 +52,11 @@ installation with `make uninstall`.
 
 ## Development
 
-Run the four Bash integration tests:
+Run the Bash integration tests:
 
 ```sh
 make check
 ```
-
-Each test copies the repository into a temporary directory and uses a synthetic
-home. The tests cover installation, version changes, and preservation of
-unmanaged installation and discovery paths. They require Bash and standard Unix
-utilities, as does the installer. No package installation is required.
 
 With Claude Code installed, also validate its marketplace, plugin, and skill:
 
