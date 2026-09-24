@@ -2,10 +2,10 @@
 
 [![Check](https://github.com/cosgroveb/recomputerize-writing-agent-skill/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/cosgroveb/recomputerize-writing-agent-skill/actions/workflows/ci.yml)
 
-Install the Recomputerize writing skill through Claude Code, Codex, or Make.
-The skill content is a placeholder:
+Recomputerize edits prose about LLMs to remove unsupported attributions of human
+traits while preserving meaning, technical terms, and the writer's voice.
 
-> You are what you are.
+Install it through Claude Code, Codex, or Make.
 
 ## Install from GitHub
 
