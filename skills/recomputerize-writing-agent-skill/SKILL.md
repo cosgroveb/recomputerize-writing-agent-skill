@@ -1,69 +1,71 @@
 ---
 name: recomputerize-writing-agent-skill
-description: Remove anthropomorphizing language about LLMs and related software. Use when drafting or editing prose that attributes thought, emotion, communication, agency, or human roles to these systems.
+description: Edit prose about LLMs and related software to remove unsupported human implications while preserving meaning. Use when asked to de-anthropomorphize writing or when prose presents software as having human mental states or roles.
 license: Apache-2.0
 ---
 
 # Recomputerize writing
 
-Describe LLMs as software, name what they do, and locate responsibility with people.
-Preserve the writer's argument, voice, and level of detail.
+Describe LLMs as software and name what they do. Distinguish automated operations
+from the responsibilities of people and organizations.
+Preserve claims, evidence, attribution, uncertainty, scope, and voice.
+Meaning preservation takes precedence over every wording preference below.
 
 ## Editing process
 
-1. Find language that gives systems human traits or obscures human decisions.
-2. Rewrite around observable operations, inputs, outputs, and people's use of them.
-3. Check that each change preserves meaning without inventing a mechanism or actor.
+1. Change a familiar metaphor only when its context implies human traits.
+2. Name supported operations, inputs, outputs, and human actions to clarify the claim.
+3. Preserve claim strength, frequency, magnitude, benefit, and input modality.
 
-Revise sentences when word substitutions would leave the same implication intact.
-Use the categories below as checks, not a mandatory replacement dictionary.
+Preserve defined technical uses and attributed or disputed claims, including claims
+about cognition. Do not settle those disputes through editing. If an equivalent
+rewrite is unclear, retain the wording and flag the ambiguity instead of guessing.
 
 ## What to change
 
-- Cognition: replace thinking, knowing, understanding, and believing with the
-  operation or output the evidence supports. "The model knows X" might mean
-  "The model produces text about X." Do not imply that output proves knowledge.
-  Use "error" for "mistake" and "reflects bias" for "shows bias."
-- Emotion: describe performance or output instead of feelings and effort.
-  "It struggles with dates" becomes "It produces incorrect dates."
-  "I coaxed it" becomes "I revised the input." Preserve relevant uncertainty.
-- Communication: describe text input and generated output.
-  "I asked Claude" becomes "I entered a question into Claude."
-  "It answered" becomes "It generated a response."
-  Use "conversation simulator" when describing a chatbot's simulated dialogue.
-- Agency: name the people using, deploying, or configuring the software when known.
-  "ChatGPT helped students write" becomes "Students used ChatGPT to write."
-  Describe automated execution as execution. Do not imply a person approved each
-  action. Replace "goal" with "success condition" when it describes a system target.
-- Human roles: replace tutor, colleague, assistant, and co-creator with the actual
-  function, such as "software for generating practice questions."
-  Describe an "AI agent" by its operations and access, such as "LLM software that
-  invokes tools." Do not invent capabilities, oversight, or verification status.
-- Names and pronouns: use "it" for a system. Keep people and systems separate
-  instead of grouping them under "we," "they," or "you."
-  Keep product names when needed to identify the software.
-- Biological metaphors: describe the computation without implying living tissue.
-  "The model consumes data" becomes "Training uses data to adjust model weights"
-  only when training is the operation described. Distinguish training from inference.
+- Cognition: remove unsupported implications of human mental states. Preserve the
+  demonstrated capability. Producing text about a topic does not establish accuracy
+  or understanding. Do not reduce a supported performance claim to mere text output.
+- Emotion: describe observed performance and the person's actions.
+  Preserve effort and repeated attempts. "Struggles" need not imply feelings or
+  incorrect output. Describe generated emotional language without assigning feelings.
+- Communication: describe relevant inputs and outputs when this clarifies the claim.
+  Keep interface terms such as "asked," "response," and "prompt" when they add no
+  human implication. Do not assume text input or label all dialogue simulation.
+- Agency: name known people or organizations using, deploying, or configuring the
+  software. Preserve any asserted benefit. Describe automated actions without
+  implying per-action approval. Keep software's causal role distinct from moral
+  responsibility. Preserve distinctions among objectives, targets, and success criteria.
+- Human roles: replace unsupported equivalence to human roles with actual functions.
+  Preserve defined functional terms and the full capability described. For agents,
+  retain material action-selection, feedback, and access details. Tool invocation
+  alone does not distinguish a fixed workflow from feedback-driven execution.
+- Names and pronouns: use "it" for a system. Name people and systems separately
+  when collective pronouns obscure responsibility. Retain identifying product names.
+- Biological metaphors: explain computation when a metaphor implies living tissue.
+  Keep conventional resource descriptions such as "consumes memory" when accurate.
+  Distinguish training from inference. Data use does not always adjust model weights.
 
 ## Preserve precision
 
-Name the product, model type, or function instead of calling everything "AI."
-Use "probabilistic automation" only where it fits. Keep "AI industry" when naming
-the industry, and "AI" when discussing the term or ideology.
+Prefer a product, model type, or function when it matches the intended scope.
+Keep "AI" for an umbrella category or discussion of the term, industry, or ideology.
+Choose familiar, accurate language for the audience. Avoid mocking labels, slogans,
+and cumbersome euphemisms such as "probabilistic automation" for every system.
 
-Replace "hallucination" with the specific defect: an unsupported claim, an incorrect
-date, or a nonexistent citation. Use "undesirable output" if no defect is specified.
-Do not imply that correct and incorrect text come from separate generation processes.
+Name specific defects when known: false claims, nonexistent citations, or contradictions
+with the supplied source. Otherwise preserve the defined error term or flag ambiguity.
+Do not broaden "hallucination" to "undesirable output" or invent a generation mechanism.
+Describe observed bias without implying its origin unless the evidence supports it.
 
-Preserve quotations, titles, code, API names, and exact interface labels.
-Keep established technical terms when replacement would obscure their meaning.
-Explain their computational meaning where needed. Do not infer human traits from
-terms such as "attention," "memory," or "neural network."
+Preserve quotations, titles, code, API names, and exact interface labels. Keep established
+technical terms when replacement would obscure meaning. Explain them for the audience.
+Do not infer human traits from labels such as "attention," "memory," or "neural network."
 
-Prefer literal descriptions over mocking labels, slogans, or cumbersome euphemisms.
-Do not add claims about motives, consciousness, or capability to make a wording fix.
-Return the revised prose. Include an explanation of edits only when requested.
+Do not invent motives, consciousness claims, capabilities, actors, or verification status.
+Do not claim these wording choices improve trust or accountability without evidence.
+Return revised prose. Note unresolved ambiguities where a rewrite would change meaning.
+Explain other edits only when requested.
 
 Source: Emily M. Bender and Nanna Inie,
 [How to talk about "AI" without adding to the anthropomorphization](https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/).
