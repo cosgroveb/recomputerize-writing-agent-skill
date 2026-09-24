@@ -5,6 +5,13 @@
 Recomputerize removes unnecessary anthropomorphization of writing about LLMs
 while preserving meaning, technical terms, and the writer's voice.
 
+> De-anthropomorphizing language talks about computer systems in terms of their
+> functionality (what people build and/or use them to do), assigns agency to people
+> using systems and not systems, and avoids aggrandizing metaphors about cognition.
+
+Emily M. Bender and Nanna Inie,
+[How to talk about “AI” without adding to the anthropomorphization](https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/).
+
 Install it through Claude Code, Codex, or Make.
 
 ## Install from GitHub
