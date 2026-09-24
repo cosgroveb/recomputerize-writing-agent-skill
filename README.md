@@ -50,16 +50,16 @@ installation with `make uninstall`.
 
 ## Development
 
-Create a development environment and run the checks:
+Run the four Bash integration tests:
 
 ```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-dev.txt
-make check PYTHON=.venv/bin/python
+make check
 ```
 
-`make check` validates metadata, marketplace paths, and skill frontmatter, then
-tests installation in temporary directories.
+Each test copies the repository into a temporary directory and uses a synthetic
+home. The tests cover installation, version changes, and preservation of
+unmanaged installation and discovery paths. They require Bash and standard Unix
+utilities, as does the installer. No package installation is required.
 
 With Claude Code installed, also validate its marketplace, plugin, and skill:
 

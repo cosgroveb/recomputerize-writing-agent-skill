@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/install.py\" install --auto",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/install.sh\" install --auto",
             "timeout": 30
           }
         ]

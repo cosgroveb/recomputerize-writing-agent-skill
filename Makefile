@@ -1,16 +1,12 @@
-PYTHON ?= python3
-
 .PHONY: check test install uninstall
 
-check:
-	$(PYTHON) scripts/check.py
-	$(MAKE) test
+check: test
 
 test:
-	$(PYTHON) -m unittest discover -s tests -v
+	bash tests/test_install.sh
 
 install:
-	$(PYTHON) scripts/install.py install
+	bash scripts/install.sh install
 
 uninstall:
-	$(PYTHON) scripts/install.py uninstall
+	bash scripts/install.sh uninstall
