@@ -1,5 +1,7 @@
 # Recomputerize writing agent skill
 
+[![Check](https://github.com/cosgroveb/recomputerize-writing-agent-skill/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/cosgroveb/recomputerize-writing-agent-skill/actions/workflows/ci.yml)
+
 Install the Recomputerize writing skill through Claude Code, Codex, or Make.
 The skill content is a placeholder:
 
