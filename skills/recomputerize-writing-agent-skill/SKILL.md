@@ -6,20 +6,22 @@ license: Apache-2.0
 
 # Recomputerize writing
 
-Describe LLMs as software and name what they do. Distinguish automated operations
-from the responsibilities of people and organizations.
+Describe LLMs as software and distinguish their operations from human responsibility.
+Describing software in human terms can imply unproven capability or responsibility.
 Preserve claims, evidence, attribution, uncertainty, scope, and voice.
-Meaning preservation takes precedence over every wording preference below.
+Meaning preservation takes precedence over wording preferences. Follow the user's requested scope and format.
 
 ## Editing process
 
-1. Change a familiar metaphor only when its context implies human traits.
+1. Change only wording that implies an unsupported human trait. Keep literal operations and interface terms.
 2. Name supported operations, inputs, outputs, and human actions to clarify the claim.
 3. Preserve claim strength, frequency, magnitude, benefit, and input modality.
 
 Preserve defined technical uses and attributed or disputed claims, including claims
-about cognition. Do not settle those disputes through editing. If an equivalent
-rewrite is unclear, retain the wording and flag the ambiguity instead of guessing.
+about cognition. Do not settle those disputes through editing. Edit clear passages
+and retain ambiguous wording, flagging it instead of guessing at an equivalent rewrite.
+For example, when a log shows a retry, change "the system wanted another try" to
+"the system retried."
 
 ## What to change
 
@@ -64,7 +66,8 @@ Do not infer human traits from labels such as "attention," "memory," or "neural 
 
 Do not invent motives, consciousness claims, capabilities, actors, or verification status.
 Do not claim these wording choices improve trust or accountability without evidence.
-Return revised prose. Note unresolved ambiguities where a rewrite would change meaning.
+Compare each change with the source for actors, operations, claim strength, and scope.
+Return revised prose in the source's format and register unless the user requests a change. Flag meaning-changing ambiguity.
 Explain other edits only when requested.
 
 Source: Emily M. Bender and Nanna Inie,
