@@ -1,0 +1,17 @@
+{
+  "name": "recomputerize-writing-agent-skill",
+  "description": "Recomputerize writing skill for Claude Code and shared agent discovery.",
+  "owner": {
+    "name": "Brian Cosgrove",
+    "url": "https://github.com/cosgroveb"
+  },
+  "plugins": [
+    {
+      "name": "recomputerize-writing-agent-skill",
+      "source": "./",
+      "description": "Recomputerize writing skill. Content is a placeholder.",
+      "category": "productivity",
+      "tags": ["writing", "agent-skills"]
+    }
+  ]
+}

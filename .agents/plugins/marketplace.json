@@ -1,0 +1,20 @@
+{
+  "name": "recomputerize-writing-agent-skill",
+  "interface": {
+    "displayName": "Recomputerize Writing"
+  },
+  "plugins": [
+    {
+      "name": "recomputerize-writing-agent-skill",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

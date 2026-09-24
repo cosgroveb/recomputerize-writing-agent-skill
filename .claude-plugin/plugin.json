@@ -1,0 +1,12 @@
+{
+  "name": "recomputerize-writing-agent-skill",
+  "version": "0.1.0",
+  "description": "Recomputerize writing skill. Content is a placeholder.",
+  "author": {
+    "name": "Brian Cosgrove",
+    "url": "https://github.com/cosgroveb"
+  },
+  "repository": "https://github.com/cosgroveb/recomputerize-writing-agent-skill",
+  "license": "Apache-2.0",
+  "keywords": ["writing", "agent-skills"]
+}
