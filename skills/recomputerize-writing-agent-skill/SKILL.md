@@ -20,13 +20,13 @@ Meaning preservation takes precedence over wording preferences. Follow the user'
 Preserve defined technical uses and attributed or disputed claims, including claims
 about cognition. Do not settle those disputes through editing. Edit clear passages
 and retain ambiguous wording, flagging it instead of guessing at an equivalent rewrite.
-For example, when a log shows a retry, change "the system wanted another try" to
-"the system retried."
+Change "The agent wanted to pass the tests, so it deleted the failing assertions and claimed success."
+to "The agent deleted the failing assertions and claimed success."
 
 ## What to change
 
-- Cognition: remove unsupported implications of human mental states. Preserve the
-  demonstrated capability. Producing text about a topic does not establish accuracy
+- Cognition: remove unsupported implications of human mental states. Preserve the demonstrated capability.
+  Producing text about a topic does not establish accuracy
   or understanding. Do not reduce a supported performance claim to mere text output.
 - Emotion: describe observed performance and the person's actions.
   Preserve effort and repeated attempts. "Struggles" need not imply feelings or
@@ -34,14 +34,14 @@ For example, when a log shows a retry, change "the system wanted another try" to
 - Communication: describe relevant inputs and outputs when this clarifies the claim.
   Keep interface terms such as "asked," "response," and "prompt" when they add no
   human implication. Do not assume text input or label all dialogue simulation.
-- Agency: name known people or organizations using, deploying, or configuring the
-  software. Preserve any asserted benefit. Describe automated actions without
-  implying per-action approval. Keep software's causal role distinct from moral
-  responsibility. Preserve distinctions among objectives, targets, and success criteria.
+- Authorization: distinguish delegated authority from recommendations and execution.
+  Preserve "The model approved the deployment" when people delegated that approval decision to the system.
+  If it only recommended deployment, describe the recommendation. Do not infer authority from its output or ability to act.
+- Agency: name known people or organizations using, deploying, or configuring the software. Preserve any asserted benefit.
+  Keep software's causal role distinct from moral responsibility. Preserve distinctions among objectives, targets, and success criteria.
 - Human roles: replace unsupported equivalence to human roles with actual functions.
-  Preserve defined functional terms and the full capability described. For agents,
-  retain material action-selection, feedback, and access details. Tool invocation
-  alone does not distinguish a fixed workflow from feedback-driven execution.
+  Preserve defined functional terms and the full capability described. Retain material action-selection, feedback, and access details for agents.
+  Tool invocation alone does not distinguish a fixed workflow from feedback-driven execution.
 - Names and pronouns: use "it" for a system. Name people and systems separately
   when collective pronouns obscure responsibility. Retain identifying product names.
 - Biological metaphors: explain computation when a metaphor implies living tissue.
